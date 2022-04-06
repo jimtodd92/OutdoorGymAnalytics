@@ -11,10 +11,16 @@ The challenges solved are centered around correlating the weather and impact of 
 Tip:
 Its easier to work on this repo in a notebook based IDE.
 
-Requirements:
+#Requirements:
+See requirements.txt
+
+# Development environment:
+1. Install Anaconda
+2. Create vitual environment
 ```
-    - Pyspark
-    - Pandas
-    - matplotlib
-    - unittest
+conda create --name dev_env --file requirements.txt
+activate dev_env
+cd src/dataset
+jupyter notebook
 ```
+3. You can execute the notebook in browser
